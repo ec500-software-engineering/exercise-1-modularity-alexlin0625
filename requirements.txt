@@ -1,6 +1,6 @@
 pymysql 
 
-MySQL installed and running
+MySQL installed and running + have existed database locally
 
 MySQLWorkbench
 
