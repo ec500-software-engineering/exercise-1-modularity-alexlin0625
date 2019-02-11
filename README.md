@@ -12,6 +12,9 @@ modules selected from https://github.com/alexlin0625/EC500_Spring19 in branches
 # Implementation
 
   * Input.py: this is input module that return patient information and sersor data as json formate. Patientinfo contains patient's ID, name, gender and age. Sensordata contains time, pulse, pulse range(upper/lower), blood pressure, blood pressure range(upper/lower), blood oxygen and blood oxygen range(upper/lower).
+  
+  patientdetails.csv: contains testing data for Patientinfo.
+  sensorinput.csv: contains testing data for Sensordata.
 
   * alert_system.py: this is alert system that takes in the sersor data from the input and does comparison for pulse, blood pressure and blood oxygen between each's upper and lower range, then print alert message to the output. 
 
