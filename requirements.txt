@@ -1,1 +1,7 @@
-pytest
+pymysql 
+
+MySQL installed and running
+
+MySQLWorkbench
+
+
