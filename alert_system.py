@@ -4,7 +4,6 @@ Created on 02/10/2019
 Source code copied from https://github.com/alexlin0625/EC500_Spring19/blob/alert-system/alert_system.py.
 With lots of modifications to make it work.
 Basically I rewrited the whole file.
-The original one by mohitbeniwal is bullshit.
 '''
 
 #!/usr/bin/env python3
