@@ -8,7 +8,7 @@ import output
 
 def run_threads(PatientInfo, SensorData):
     db = connect_db()
-    # create_table(db) # create table only the first time
+    create_table(db) # create table only the first time
     insert_db(db, PatientInfo, SensorData)
     # search_db(db) # search for patient's current information
     # delete_db(db) # only use it if you want to delete table data for the patient
