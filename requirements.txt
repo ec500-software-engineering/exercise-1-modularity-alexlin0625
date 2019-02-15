@@ -1,8 +1,5 @@
 pymysql 
 
-MySQL installed and running + have existed database locally
-
-MySQLWorkbench
 
 
 flake8
