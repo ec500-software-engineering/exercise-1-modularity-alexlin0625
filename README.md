@@ -1,4 +1,4 @@
-# EC500 exercise 1 Modulartiy
+# EC500 exercise: Modulartiy
 modules selected from https://github.com/alexlin0625/EC500_Spring19 in branches
 
   * Input_module selected from Sunitha Sampath
