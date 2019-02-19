@@ -5,10 +5,6 @@ from input_thread import getPatientInfo, readSensorData
 import alert_system
 import output
 
-
-from storage_mysqldb import connect_db, create_table, insert_db, search_db, update_db
-from input import getPatientInfo, readSensorData
-
 def run_threads(PatientInfo, SensorData):
     db = connect_db()
     create_table(db) # create table only the first time
