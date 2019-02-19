@@ -14,6 +14,7 @@ Created on Wed Feb  6 09:29:32 2019
 
 @author: mohitbeniwal
 """
+
 def alertCheck(PatientInfo, SensorData):
     j=json.loads(SensorData)
     alert_message = ""
