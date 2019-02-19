@@ -1,10 +1,13 @@
 from time import sleep
-from threading import *
-from storage_mysqldb import *
-from input_thread import *
+from threading import Thread
+from storage_mysqldb import connect_db, create_table, insert_db
+from input_thread import getPatientInfo, readSensorData
 import alert_system
 import output
 
+
+from storage_mysqldb import connect_db, create_table, insert_db, search_db, update_db
+from input import getPatientInfo, readSensorData
 
 def run_threads(PatientInfo, SensorData):
     db = connect_db()
