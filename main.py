@@ -1,5 +1,5 @@
-from storage_mysqldb import *
-from input import *
+from storage_mysqldb import connect_db, create_table, insert_db, search_db, update_db
+from input import getPatientInfo, readSensorData
 import alert_system
 import output
 
