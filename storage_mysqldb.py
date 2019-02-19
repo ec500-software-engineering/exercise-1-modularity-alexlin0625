@@ -65,7 +65,7 @@ def insert_db(db, PatientInfo, SensorData):
         cursor.execute(sql)
         db.commit()
 
-    except:
+    except Exception:
         # Rollback in case there is any error
         db.rollback()
 
@@ -95,7 +95,7 @@ def search_db(db):
                   "blood_pressure: %s, blood_oxygen: %s, pulse: %s") % \
                 (id, patientName, gender, age, time, blood_pressure, blood_oxygen, pulse))
 
-    except:
+    except Exception:
         print("Error: unable to fecth data")
 
 
@@ -112,7 +112,7 @@ def delete_db(db):
         cursor.execute(sql)
         db.commit()
 
-    except:
+    except Exception:
         db.rollback()
     cursor.close()
     db.close()
@@ -128,7 +128,7 @@ def update_db(db):
         cursor.execute(sql)
         db.commit()
 
-    except:
+    except Exception:
         db.rollback()
 
 def main():
