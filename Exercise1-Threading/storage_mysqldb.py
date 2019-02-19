@@ -111,7 +111,7 @@ def delete_db(db):
         cursor.execute(sql)
         db.commit()
 
-    except:
+    except Exception:
         db.rollback()
     cursor.close()
     db.close()
@@ -127,7 +127,7 @@ def update_db(db):
         cursor.execute(sql)
         db.commit()
 
-    except:
+    except Exception:
         db.rollback()
 
 def main():
