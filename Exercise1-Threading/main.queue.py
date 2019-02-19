@@ -1,7 +1,7 @@
 from time import sleep
 import threading
-from storage_mysqldb import *
-from input_thread import *
+from storage_mysqldb import connect_db, create_table, insert_db
+from input_thread import getPatientInfo, readSensorData
 import alert_system
 import output
 import queue
