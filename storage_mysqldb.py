@@ -15,7 +15,7 @@ def read_json(jsonfile):
 
 def connect_db():
     # connect to MySQL database
-    db = pymysql.connect(host='localhost', port=3306, user='root', passwd='@Alixpig6', db='patientinfo')
+    db = pymysql.connect(host='localhost', port=3306, user='root', passwd='yourpassword', db='patientinfo')
     print('connected')
     return db
 
