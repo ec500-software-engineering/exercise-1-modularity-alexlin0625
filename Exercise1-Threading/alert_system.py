@@ -1,3 +1,4 @@
+import json
 '''
 Created on 02/10/2019
 @author: Xiangkun Ye
@@ -13,8 +14,6 @@ Created on Wed Feb  6 09:29:32 2019
 
 @author: mohitbeniwal
 """
-import json
-
 
 def sendToUI(msg,j):
     ui_dict={"alert_message":msg,"bloodPressure":j["bloodPressure"],"pulse":j["pulse"],"bloodOx":j["bloodOx"]}
